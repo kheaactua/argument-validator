@@ -2,7 +2,7 @@
 	{
 		"type": "package",
 		"package": {
-			"name": "kheaactua/argument-configurator",
+			"name": "kheaactua/argument-validator",
 			"version": "dev-master",
 			"source": {
 				"url": "git://github.com/kheaactua/argument-validator",
@@ -11,7 +11,7 @@
 			},
 			"autoload": {
 				"psr-0" : {
-					"Weaverryan\\DangerZone" : "src"
+					"ArgumentValidator\\ArgumentValidator" : "src"
 				}
 			}
 		}
