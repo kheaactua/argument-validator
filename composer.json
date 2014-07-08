@@ -1,5 +1,5 @@
 {
-	"name": "weaverryan/derp-dangerzone",
+	"name": "kheaactua/argument-validator",
 	"description": "Simple class to validate and set inputs on functions in PHP.  Useful when function takes large number of inputs",
 	"keywords": ["php", "validator"],
 	"authors": [
