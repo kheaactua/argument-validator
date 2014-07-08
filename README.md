@@ -14,9 +14,7 @@ In this example, we have an Order class with a toArray method that takes in a co
 
 This method has a large number of configuration options.  For example, show item action buttons on the HTML output of every item in the order, what headers to show, who is requestion the output, etc.
 
-```
-
-<?php
+```php
 
 use ArgumentValidator\ArgumentValidator;
 
