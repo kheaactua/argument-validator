@@ -1,0 +1,19 @@
+"repositories": [
+	{
+		"type": "package",
+		"package": {
+			"name": "kheaactua/argument-configurator",
+			"version": "dev-master",
+			"source": {
+				"url": "git://github.com/kheaactua/argument-validator",
+				"type": "git",
+				"reference": "master"
+			},
+			"autoload": {
+				"psr-0" : {
+					"Weaverryan\\DangerZone" : "src"
+				}
+			}
+		}
+	}
+],
