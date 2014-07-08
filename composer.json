@@ -1,19 +1,16 @@
-"repositories": [
-	{
-		"type": "package",
-		"package": {
-			"name": "kheaactua/argument-validator",
-			"version": "dev-master",
-			"source": {
-				"url": "git://github.com/kheaactua/argument-validator",
-				"type": "git",
-				"reference": "master"
-			},
-			"autoload": {
-				"psr-0" : {
-					"ArgumentValidator\\ArgumentValidator" : "src"
-				}
-			}
+{
+	"name": "weaverryan/derp-dangerzone",
+	"description": "Simple class to validate and set inputs on functions in PHP.  Useful when function takes large number of inputs",
+	"keywords": ["php", "validator"],
+	"authors": [
+		{
+			"name": "Matthew Russell",
+			"email": "matthew.g.russell@gmail.com"
+		}
+	],
+	"autoload": {
+		"psr-0" : {
+			"Weaverryan\\DangerZone" : "src"
 		}
 	}
-],
+}
