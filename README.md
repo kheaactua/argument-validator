@@ -6,11 +6,32 @@ Simple class to compensate for the lack of keyworded arguments in PHP.  This is 
 Install
 =======
 
+Create a `composer.json`:
+
+```json
+{
+    "require": {
+        "kheaactua/argument-validator": "*"
+    }
+}
+```
+
+and run
+
+```bash
+$ wget http://getcomposer.org/composer.phar
+$ php composer.phar install
+```
+
+After the installation, you need to include the `vendor/autoload.php` to make the class in your script available.
+```php
+require_once('vendor/autoload.php');
+```
 
 Example
--------
+=======
 
-In this example, we have an Order class with a toArray method that takes in a configuration and serializes an Order Object into an array that's then used to serialize it into HTML/Text/LaTeX, etc..
+In this example, we have an Order class with a toArray method that takes in a configuration and serializes an Order object into an array that's then used to serialize it into HTML/Text/LaTeX, etc..
 
 This method has a large number of configuration options.  For example, show item action buttons on the HTML output of every item in the order, what headers to show, who is requestion the output, etc.
 
