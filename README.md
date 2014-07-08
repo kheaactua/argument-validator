@@ -1,5 +1,5 @@
-argument-configurator
-=====================
+PHP Argument Validator
+======================
 
 Simple class to compensate for the lack of keyworded arguments in PHP.  This is useful for functions that take many arguments, where many are optional and have default values.
 
