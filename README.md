@@ -16,6 +16,8 @@ This method has a large number of configuration options.  For example, show item
 
 ```
 
+<?php
+
 use ArgumentValidator\ArgumentValidator;
 
 class Order extends BaseOrder {
