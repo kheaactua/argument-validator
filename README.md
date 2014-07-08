@@ -11,7 +11,7 @@ Create a `composer.json`:
 ```json
 {
     "require": {
-        "kheaactua/argument-validator": "*"
+        "kheaactua/argument-validator": "dev-master"
     }
 }
 ```
